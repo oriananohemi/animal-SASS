@@ -37,3 +37,10 @@ body {
   @extend .size-container;
   @extend .letter-transform;
 }
+
+.main {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
