@@ -3,10 +3,32 @@
 }
 
 body {
-  background-color: #99DDCC;
+  color: #FFF;
   margin: 0;
   padding: 0;
-  min-height: 500px;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.center, .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size-container, .header {
+  width: 100%;
+  height: 80px;
+}
+
+.letter-transform, .header {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.header {
+  background-color: #99DDCC;
 }
 
 /*# sourceMappingURL=styles.css.map */
